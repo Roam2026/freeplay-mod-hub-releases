@@ -72,3 +72,24 @@ Only the listed game versions are supported. Phantom Blade Zero Build 26367565 h
 The official binary package may be downloaded, used, copied and redistributed. Preserve the bundled third-party license notices. Game artwork belongs to its respective rights holders; see `AssetSources.json`.
 
 Existing members can use [Discord bug reports](https://discord.com/channels/1567700187412045936/1567709362745512076); this is a channel link, not an invitation. Reports are also welcome in this repository's Issues. Include the tool/game versions and reproduction steps; do not post credentials, recovery codes, saves or unredacted personal logs.
+
+<!-- usagi-autoclicker:start -->
+<a id="usagi-autoclicker"></a>
+
+## Usagi AutoClicker / 乌沙奇连点器
+
+**Portable ZIP / 绿色版：[Download v1.2.0](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/autoclicker-v1.2.0/Freeplay-AutoClicker-v1.2.0-Windows.zip)** · [Release notes / 发行说明](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/autoclicker-v1.2.0)
+
+Extract the complete folder and run the root AutoClicker.exe. English by default; Simplified Chinese available. Windows 10/11 with .NET Framework 4.8. No installer, admin rights, account, Python or GameModHub required.
+
+完整解压后运行根目录 AutoClicker.exe。默认英文，可切换中文。无需安装、管理员权限、账号或 GameModHub。
+
+**Updates → Update now** verifies and stages a complete package, preserves data and the previous version, and restarts idle after clicking stops. Previous version supports rollback. Startup checks can be disabled. v1.1.2 users must extract this release to a new folder and copy UserData/ and portable.json once; future upgrades work in the app. Keep the old folder for manual rollback.
+
+**更新 → 一键升级**：校验、暂存完整包，保留设置和上一版，停止连点后以待机状态重启；支持回退。启动检查可关闭。v1.1.2 用户需手动解压本版到新目录，复制旧 UserData/ 与 portable.json 一次，以后在程序内升级。保留旧目录供手动回退。
+
+[GitHub downloads](https://github.com/Roam2026/freeplay-mod-hub-releases) · [Discord member entrance / 成员入口](https://discord.com/channels/1567700187412045936/1567700187940392993) (new members need an invitation / 新成员需要邀请).
+
+Only runtime packages and guides are public; source stays private. Copying and reverse engineering are allowed. 公开运行包与说明，源码保持私有；允许复制传播和逆向分析。
+
+<!-- usagi-autoclicker:end -->
