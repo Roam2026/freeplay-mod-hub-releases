@@ -14,6 +14,14 @@
 
 [版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.5.2) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
+<!-- dotnet-runtime-help:start -->
+## 启动提示 / Startup help
+
+如果 Windows 提示缺少 **.NET Framework 4.8**，请到[微软官方下载页](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)选择 **Runtime（运行时）**，安装并按提示重启电脑，再打开工具。无需 Developer Pack、SDK 或 Python。已安装 4.8.1 或工具已能启动时无需补装；运行库使用系统版本，没有随 ZIP 附带。补装系统组件可能需要管理员权限。
+
+If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official download page](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48), choose **Runtime**, install it and restart Windows if requested, then reopen the tool. No Developer Pack, SDK or Python is needed. An installed 4.8.1 is compatible; no reinstall is needed if the app already starts. The system runtime is not bundled in the ZIP; installing it may require administrator rights.
+<!-- dotnet-runtime-help:end -->
+
 ## 中文
 
 1. 点击上面的 ZIP 下载链接，完整解压到自己选择的文件夹。
