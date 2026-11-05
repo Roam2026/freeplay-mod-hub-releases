@@ -1,80 +1,56 @@
 # 自在游社 · Freeplay Club — MOD HUB
 
-**按自己的节奏，玩喜欢的游戏。Play your way.**
+按自己的节奏，玩喜欢的游戏。**Play your way.**
 
-[下载 / Downloads](https://github.com/Roam2026/freeplay-mod-hub-releases/releases) · [v0.2.1 社区预览 / Community Preview](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.2.1)
+## ⬇ 下载 / Download
 
-本仓库只提供程序发行包及说明。工具源码保存在独立私有仓库中。
-This repository contains public releases and documentation only. The application source is maintained separately in a private repository.
+### [直接下载 Windows 绿色版 ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
+
+### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
+
+**当前文件：MOD HUB 0.4.2 社区预览，约11MB。固定地址，后续更新沿用同一链接。**
+
+**Current package: MOD HUB 0.4.2 community preview, about 11MB. This download address stays the same for future approved updates.**
+
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.4.2) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 ## 中文
 
-MOD HUB 是 Windows 便携游戏修改工具箱，当前为社区预览版 0.2.1。
+1. 点击上面的 ZIP 下载链接，完整解压到自己选择的文件夹。
+2. 运行根目录的 **GameModHub.exe**，保留 Framework、Modules、Downloads 和 UserData。
+3. 在“模块管理”中安装随包提供的本地模块，再选择游戏并开启功能。无需安装 Python、Codex 或登录 GitHub。
 
-| 游戏 | 支持版本 | 功能 |
-| --- | --- | --- |
-| 海洋盛宴 | Steam Build 26268989 | 贝里、海贼代币、桃心分别 1–100 倍 |
-| 仁王3 | Steam EXE 2.0.2.0 | 精准格挡、精准闪避窗口分别 1–10 倍 |
-| 影之刃零 | Steam Builds 26266538 / 26367565 | 五难度完美格挡窗口固定 3 倍 |
+| 游戏 | 已支持版本 | 当前功能 |
+|---|---|---|
+| 海洋盛宴 | Steam Build 26268989 / 26406937 | 贝里、海贼代币、桃心分别1–100倍 |
+| 仁王3 | Steam EXE 2.0.2.0 | 精准格挡、精准闪避窗口分别1–10倍 |
+| 影之刃零 | Steam Build 26266538 / 26367565 | 五难度完美格挡窗口固定3倍 |
 
-### 下载与运行
+下载、设置、收藏、模块和备份默认保存在平台目录，可以整体移动，也可指定其他存储位置。框架和游戏模块独立更新；关闭框架会保留后台修改器。需要停用时使用游戏卡片、“停用全部”或相应托盘菜单。
 
-1. 打开发行页，下载 `GameModHub-v0.2.1-Windows.zip`。
-2. 完整解压后运行 `GameModHub.exe`；保留 `Modules` 文件夹。
-3. 阅读包内 `使用说明.txt`。无需安装 Python 或 Codex。
-4. GitHub 自动生成的 `Source code` 压缩包仅包含本下载仓库的文档，不是可运行程序，也不包含工具私有源码。
+仁王基础加载器原包不随工具转载。请从[作者页面](https://www.nexusmods.com/nioh3/mods/49?tab=files)取得已支持的v1.0.1并从插件管理导入；已有其他加载器时不要覆盖。首次安装插件后需重启游戏，文件已安装不等于实际加载。
 
-仁王3需要另外安装作者提供的 [DLL Plugin Loader v1.0.1](https://www.nexusmods.com/nioh3/mods/49?tab=files)。退出游戏后将作者包中的 `dinput8.dll` 放到 `Nioh3.exe` 同目录；已有文件时先核对来源，避免覆盖其他加载器。MOD HUB 会核对支持的文件哈希，不匹配时拒绝安装。加载器不随本包转载，下载可能需要 Nexus Mods 账号。
+0.3.x首次迁移到模块版需先停用并关闭游戏；已有模块版的框架更新不停止独立修改器。旧版、设置与恢复资料保留。请遵循包内使用说明和实际版本检查。
 
-### 更新与回退
+本包为社区预览：海洋盛宴资源倍率已获维护者本机实测确认；其他游戏按其说明及已验证版本使用，另一台电脑和实际体验仍需玩家反馈。游戏更新后遇到版本不符会拒绝修改。
 
-先停用全部功能，关闭工具与游戏，将新版完整解压到新的文件夹后启动。设置和恢复备份保存在 `%LOCALAPPDATA%\GameModHub`，保留此目录。先保留旧版工具文件夹，需要回退时关闭新版并运行旧版。不要只替换 EXE；`Modules` 也需要随版本更新。当前为手动下载更新，没有自动更新服务。
+**请下载上面的完整绿色ZIP。GitHub自动生成的 Source code 压缩包只是这个下载仓库的文档，不是程序。** 工具源码保持私有。官方运行包允许复制传播，保留随包许可和素材来源。
 
-### 预览限制
-
-- 当前工具界面为中文，包内另有英文使用说明。
-- 只支持上表版本；游戏更新后可能需要重新适配，不匹配时拒绝修改。
-- 影之刃零 26367565 已通过只读定位与属性核对，整合控制和实际战斗效果仍待玩家测试。
-- 已做本机离线检查、发行包校验和解压运行检查；尚无另一台电脑的验证，实际游戏体验由玩家反馈。
-- 本包不含个人存档、设置、日志、游戏文件或源码。
-
-### 传播、来源与反馈
-
-官方程序包允许下载、使用、复制和传播。第三方组件仍遵循其各自许可，分发时保留包内许可文件。游戏展示素材归相应权利人所有，来源见 `AssetSources.json`。
-
-已有成员可进入 [Discord 中文反馈](https://discord.com/channels/1567700187412045936/1567701582840201256)。频道地址不是新成员邀请链接。也可在本仓库 Issues 提交问题；请写明工具版本、游戏版本和复现步骤，不要上传密码、恢复码、存档或含个人信息的完整日志。
+[Discord 中文反馈](https://discord.com/channels/1567700187412045936/1567701582840201256)（已加入成员使用） · [GitHub 问题反馈](https://github.com/Roam2026/freeplay-mod-hub-releases/issues)
 
 ## English
 
-MOD HUB 0.2.1 is a portable Windows game-modding toolbox and a community preview.
+Download the ZIP above, extract the complete folder, and run the root **GameModHub.exe**. Install the included cached game module from module management, select the game, then enable its features. No Python, Codex or GitHub sign-in is required. The application interface currently uses Chinese; **README.en.txt** is included.
 
-| Game | Supported version | Features |
-| --- | --- | --- |
-| ONE PIECE: Grand Gourmet | Steam Build 26268989 | Berries, Pirate Tokens and Hearts: 1–100x each |
-| Nioh 3 | Steam EXE 2.0.2.0 | Precision guard and dodge windows: 1–10x each |
-| Phantom Blade Zero | Steam Builds 26266538 / 26367565 | Fixed 3x perfect-deflect windows across five difficulties |
+The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, and Phantom Blade Zero builds 26266538 / 26367565. Grand Gourmet provides three independent resource-gain multipliers, Nioh provides precision-guard/dodge controls, and PBZ uses the verified 3x perfect-deflect profile.
 
-### Download and run
+Framework and modules update independently. Closing the framework leaves independent trainers running; disable them through the game card, Disable all, or the tray menu. Settings, caches and recovery files default to the extracted folder and are retained. First migration from 0.3.x requires closing games; subsequent modular framework updates do not.
 
-1. Open Releases and download `GameModHub-v0.2.1-Windows.zip`.
-2. Extract the complete archive and run `GameModHub.exe`. Keep the `Modules` folder.
-3. Read `README.en.txt`; neither Python nor Codex is required. The application UI currently uses Chinese.
-4. GitHub's automatic `Source code` archives contain this download repository's documents, not the runnable application or its private source.
+The original Nioh loader is not redistributed. Obtain supported v1.0.1 from the [author's page](https://www.nexusmods.com/nioh3/mods/49?tab=files), import it from plugin management and restart the game after first installation. Do not overwrite another loader. Unsupported game/plugin versions are refused.
 
-Nioh 3 requires the author's [DLL Plugin Loader v1.0.1](https://www.nexusmods.com/nioh3/mods/49?tab=files), downloaded separately. With the game closed, place its `dinput8.dll` beside `Nioh3.exe`. Check any existing loader before replacing it. MOD HUB verifies the supported hash and refuses mismatches. The loader is not redistributed here; Nexus Mods may require an account to download it.
+This is a community preview. Grand Gourmet resource gains have maintainer player confirmation; cross-machine operation and other gameplay details still require player testing. The runnable ZIP contains no private source, saves or user settings. GitHub's automatic Source code archives contain download-repository documents, not the application. Preserve third-party notices when redistributing the runtime.
 
-### Updates, rollback and preview limits
-
-Disable all features and close MOD HUB and the games before updating. Extract the complete new package into a new folder. Keep `%LOCALAPPDATA%\GameModHub` for settings and recovery backups, and retain the old application folder for rollback. Update the entire package, including `Modules`, rather than just the EXE. Updates are manual; there is no automatic updater.
-
-Only the listed game versions are supported. Phantom Blade Zero Build 26367565 has read-only location/property validation; its integrated controls and combat behavior still need player testing. Local offline, package-integrity and extracted-package execution checks have been performed; a second computer has not been verified. The package contains no personal saves, settings, logs, game files or application source.
-
-The official binary package may be downloaded, used, copied and redistributed. Preserve the bundled third-party license notices. Game artwork belongs to its respective rights holders; see `AssetSources.json`.
-
-Existing members can use [Discord bug reports](https://discord.com/channels/1567700187412045936/1567709362745512076); this is a channel link, not an invitation. Reports are also welcome in this repository's Issues. Include the tool/game versions and reproduction steps; do not post credentials, recovery codes, saves or unredacted personal logs.
-
-<!-- usagi-autoclicker:start -->
-<a id="usagi-autoclicker"></a>
+[Discord bug reports](https://discord.com/channels/1567700187412045936/1567709362745512076) (existing members) · [GitHub issues](https://github.com/Roam2026/freeplay-mod-hub-releases/issues)
 
 ## Usagi AutoClicker / 乌沙奇连点器
 
