@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.4.2 社区预览，约11MB。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.5.2 社区预览，约11MB。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.4.2 community preview, about 11MB. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.5.2 community preview, about 11MB. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.4.2) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.5.2) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 ## 中文
 
@@ -22,9 +22,11 @@
 
 | 游戏 | 已支持版本 | 当前功能 |
 |---|---|---|
-| 海洋盛宴 | Steam Build 26268989 / 26406937 | 贝里、海贼代币、桃心分别1–100倍 |
+| 海洋盛宴 | Steam Build 26268989 / 26406937 | 贝里、海贼代币、桃心分别1–100倍；26406937另有训练点数、食材、道具1–10倍 |
 | 仁王3 | Steam EXE 2.0.2.0 | 精准格挡、精准闪避窗口分别1–10倍 |
 | 影之刃零 | Steam Build 26266538 / 26367565 | 五难度完美格挡窗口固定3倍 |
+
+0.5.2修复0.5.1高DPI下文字裁切与控件遮挡；保留独立框架/模块设置和安全回退升级。0.5.1已撤回，现有用户可从程序内更新。
 
 下载、设置、收藏、模块和备份默认保存在平台目录，可以整体移动，也可指定其他存储位置。框架和游戏模块独立更新；关闭框架会保留后台修改器。需要停用时使用游戏卡片、“停用全部”或相应托盘菜单。
 
@@ -42,7 +44,7 @@
 
 Download the ZIP above, extract the complete folder, and run the root **GameModHub.exe**. Install the included cached game module from module management, select the game, then enable its features. No Python, Codex or GitHub sign-in is required. The application interface currently uses Chinese; **README.en.txt** is included.
 
-The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, and Phantom Blade Zero builds 26266538 / 26367565. Grand Gourmet provides three independent resource-gain multipliers, Nioh provides precision-guard/dodge controls, and PBZ uses the verified 3x perfect-deflect profile.
+The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, and Phantom Blade Zero builds 26266538 / 26367565. Grand Gourmet provides six independent gain controls (the three advanced gains require build26406937), Nioh provides precision-guard/dodge controls, and PBZ uses the verified 3x perfect-deflect profile.
 
 Framework and modules update independently. Closing the framework leaves independent trainers running; disable them through the game card, Disable all, or the tray menu. Settings, caches and recovery files default to the extracted folder and are retained. First migration from 0.3.x requires closing games; subsequent modular framework updates do not.
 
