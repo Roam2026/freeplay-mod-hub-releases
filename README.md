@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.5.4 社区预览，约11MB。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.5.5 社区预览，约11MB。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.5.4 community preview, about 11MB. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.5.5 community preview, about 11MB. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.5.4) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.5.5) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -24,7 +24,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 ## 中文
 
-0.5.4修复“更多”菜单异常。左侧只更新框架；游戏横幅收藏旁的提示和按钮只更新当前游戏，不混用暂存/完成状态。
+0.5.5修复“完成更新”点击后缺乏反馈的问题：游戏仍运行时明确提示先停用并正常退出游戏；“未连接”不等于游戏已退出。保留更多菜单修复。左侧只更新框架；游戏横幅收藏旁的提示和按钮只更新当前游戏，不混用暂存/完成状态。
 
 常用功能在前台，维护进“更多”：收藏/收藏筛选、功能、连接、启动与一键更新直接可用；版本、依赖、诊断及回退保留在更多。
 
@@ -40,7 +40,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 | 仁王3 | Steam EXE 2.0.2.0 | 精准格挡、精准闪避窗口分别1–10倍 |
 | 影之刃零 | Steam Build 26266538 / 26367565 | 五难度完美格挡窗口固定3倍 |
 
-0.5.4修复0.5.1高DPI下文字裁切与控件遮挡；保留独立框架/模块设置和安全回退升级。0.5.1已撤回，现有用户可从程序内更新。
+0.5.5修复0.5.1高DPI下文字裁切与控件遮挡；保留独立框架/模块设置和安全回退升级。0.5.1已撤回，现有用户可从程序内更新。
 
 下载、设置、收藏、模块和备份默认保存在平台目录，可以整体移动，也可指定其他存储位置。框架和游戏模块独立更新；关闭框架会保留后台修改器。需要停用时使用游戏卡片、“停用全部”或相应托盘菜单。
 
@@ -56,7 +56,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 ## English
 
-0.5.4 fixes the More-menu exception. The left action updates only the framework; the action beside Favorite updates only the selected game. Their pending/complete states are independent.
+0.5.5 shows the actual blocker and next step after Finish update. Disconnected does not mean the game has exited; disable features and exit the game normally before plugin replacement. The More-menu fix is retained. The left action updates only the framework; the action beside Favorite updates only the selected game. Their pending/complete states are independent.
 
 Common actions stay up front: favorites/filtering, features, connection, launch and one-click updates. More holds versions, dependencies, diagnostics and rollback.
 
