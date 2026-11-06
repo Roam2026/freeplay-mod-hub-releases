@@ -62,13 +62,20 @@ This is a community preview. Grand Gourmet resource gains have maintainer player
 
 [Discord bug reports](https://discord.com/channels/1567700187412045936/1567709362745512076) (existing members) · [GitHub issues](https://github.com/Roam2026/freeplay-mod-hub-releases/issues)
 
+<!-- usagi-autoclicker:start -->
+<a id="usagi-autoclicker"></a>
+
 ## Usagi AutoClicker / 乌沙奇连点器
 
-**Portable ZIP / 绿色版：[Download v1.2.0](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/autoclicker-v1.2.0/Freeplay-AutoClicker-v1.2.0-Windows.zip)** · [Release notes / 发行说明](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/autoclicker-v1.2.0)
+**Portable ZIP / 绿色版：[Download v1.2.5](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/autoclicker-stable/Freeplay-AutoClicker-Windows.zip)** · [Release notes / 发行说明](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/autoclicker-v1.2.5)
 
 Extract the complete folder and run the root AutoClicker.exe. English by default; Simplified Chinese available. Windows 10/11 with .NET Framework 4.8. No installer, admin rights, account, Python or GameModHub required.
 
+If startup reports missing .NET Framework 4.8, use [Microsoft's official download page](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48), choose Runtime, install it and restart Windows if requested. No Developer Pack or SDK is needed; 4.8.1 is compatible. The runtime is not bundled in the ZIP.
+
 完整解压后运行根目录 AutoClicker.exe。默认英文，可切换中文。无需安装、管理员权限、账号或 GameModHub。
+
+启动若提示缺少 .NET Framework 4.8，请到上述微软官方页面选择 Runtime（运行时），安装并按提示重启电脑，再打开工具。无需 SDK 或 Python；已安装 4.8.1 或已能启动时无需补装。运行库没有随 ZIP 附带，安装系统组件可能需要管理员权限。
 
 **Updates → Update now** verifies and stages a complete package, preserves data and the previous version, and restarts idle after clicking stops. Previous version supports rollback. Startup checks can be disabled. v1.1.2 users must extract this release to a new folder and copy UserData/ and portable.json once; future upgrades work in the app. Keep the old folder for manual rollback.
 
