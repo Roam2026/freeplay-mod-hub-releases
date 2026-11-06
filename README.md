@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.5.2 社区预览，约11MB。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.5.3 社区预览，约11MB。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.5.2 community preview, about 11MB. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.5.3 community preview, about 11MB. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.5.2) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.5.3) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -24,6 +24,10 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 ## 中文
 
+常用功能在前台，维护进“更多”：收藏/收藏筛选、功能、连接、启动与一键更新直接可用；版本、依赖、诊断及回退保留在更多。
+
+本版新增仁王1.1.0的三项独立战斗控制，默认关闭/1倍；减伤输入3表示承受1/3。更新框架、模块后，退出游戏再安装匹配插件。新位置已在本机进程中只读核对，新增功能实战由玩家试用确认。
+
 1. 点击上面的 ZIP 下载链接，完整解压到自己选择的文件夹。
 2. 运行根目录的 **GameModHub.exe**，保留 Framework、Modules、Downloads 和 UserData。
 3. 在“模块管理”中安装随包提供的本地模块，再选择游戏并开启功能。无需安装 Python、Codex 或登录 GitHub。
@@ -34,7 +38,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 | 仁王3 | Steam EXE 2.0.2.0 | 精准格挡、精准闪避窗口分别1–10倍 |
 | 影之刃零 | Steam Build 26266538 / 26367565 | 五难度完美格挡窗口固定3倍 |
 
-0.5.2修复0.5.1高DPI下文字裁切与控件遮挡；保留独立框架/模块设置和安全回退升级。0.5.1已撤回，现有用户可从程序内更新。
+0.5.3修复0.5.1高DPI下文字裁切与控件遮挡；保留独立框架/模块设置和安全回退升级。0.5.1已撤回，现有用户可从程序内更新。
 
 下载、设置、收藏、模块和备份默认保存在平台目录，可以整体移动，也可指定其他存储位置。框架和游戏模块独立更新；关闭框架会保留后台修改器。需要停用时使用游戏卡片、“停用全部”或相应托盘菜单。
 
@@ -50,9 +54,13 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 ## English
 
+Common actions stay up front: favorites/filtering, features, connection, launch and one-click updates. More holds versions, dependencies, diagnostics and rollback.
+
+New in 0.5.3: Nioh module 1.1.0 adds three independent direct-hit controls, off/x1 by default. Reduction 3 means one-third incoming damage. Update the framework/module, then close the game before installing the matching plugin. Original hook sites are verified read-only; new gameplay still needs player testing.
+
 Download the ZIP above, extract the complete folder, and run the root **GameModHub.exe**. Install the included cached game module from module management, select the game, then enable its features. No Python, Codex or GitHub sign-in is required. The application interface currently uses Chinese; **README.en.txt** is included.
 
-The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, and Phantom Blade Zero builds 26266538 / 26367565. Grand Gourmet provides six independent gain controls (the three advanced gains require build26406937), Nioh provides precision-guard/dodge controls, and PBZ uses the verified 3x perfect-deflect profile.
+The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, and Phantom Blade Zero builds 26266538 / 26367565. Grand Gourmet provides six independent gain controls (the three advanced gains require build26406937), Nioh module 1.1.0 provides precision-guard/dodge controls plus outgoing hit damage, incoming hit-damage reduction and outgoing Ki damage, and PBZ uses the verified 3x perfect-deflect profile.
 
 Framework and modules update independently. Closing the framework leaves independent trainers running; disable them through the game card, Disable all, or the tray menu. Settings, caches and recovery files default to the extracted folder and are retained. First migration from 0.3.x requires closing games; subsequent modular framework updates do not.
 
@@ -61,9 +69,6 @@ The original Nioh loader is not redistributed. Obtain supported v1.0.1 from the 
 This is a community preview. Grand Gourmet resource gains have maintainer player confirmation; cross-machine operation and other gameplay details still require player testing. The runnable ZIP contains no private source, saves or user settings. GitHub's automatic Source code archives contain download-repository documents, not the application. Preserve third-party notices when redistributing the runtime.
 
 [Discord bug reports](https://discord.com/channels/1567700187412045936/1567709362745512076) (existing members) · [GitHub issues](https://github.com/Roam2026/freeplay-mod-hub-releases/issues)
-
-<!-- usagi-autoclicker:start -->
-<a id="usagi-autoclicker"></a>
 
 ## Usagi AutoClicker / 乌沙奇连点器
 
