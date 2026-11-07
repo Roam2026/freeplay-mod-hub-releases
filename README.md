@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.5.7 社区预览，约11MB。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.0 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.5.7 community preview, about 11MB. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.0 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.5.7) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.0) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -23,6 +23,8 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 <!-- dotnet-runtime-help:end -->
 
 ## 中文
+
+0.6.0新增鬼武者模块1.0.0：五种战斗窗口、伤害 / 防御 / 破防、鬼力 / 变身槽正向积累、鬼眼范围 / 持续时间，共12项独立开关、1–10倍，初次全关。需Steam Build24769601 / EXE1.0.1.0。完整模块包含匹配REFramework与控制插件，游戏关闭后在本游戏插件页安装。标题菜单核验12项全部就绪，实战待玩家测试。原三个游戏模块原包复用。
 
 仁王模块1.3.0新增独立“红光反击窗口”，1–10倍、默认3倍（专用判定对象12→36帧）；仍需手动R。倍率和停用影响下次R，当前对象自然到期。游戏横幅收藏旁更新模块，停用功能并正常退出游戏后点“完成更新”，再重启试用。左侧只更新框架。实战效果待玩家确认。
 
@@ -39,6 +41,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 | 海洋盛宴 | Steam Build 26268989 / 26406937 | 贝里、海贼代币、桃心分别1–100倍；26406937另有训练点数、食材、道具1–10倍 |
 | 仁王3 | Steam EXE 2.0.2.0 | 精准格挡、精准闪避、完美残心窗口1–10倍；另有攻击、减伤、削精控制 |
 | 影之刃零 | Steam Build 26266538 / 26367565 | 五难度完美格挡窗口固定3倍 |
+| 鬼武者 | Steam Build24769601 / EXE1.0.1.0 | 12项独立战斗、能量与鬼眼控制，1–10倍，初次全关 |
 
 保留高DPI文字和控件布局修复；保留独立框架/模块设置和安全回退升级。0.5.1已撤回，现有用户可从程序内更新。
 
@@ -55,6 +58,8 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 [Discord 中文反馈](https://discord.com/channels/1567700187412045936/1567701582840201256)（已加入成员使用） · [GitHub 问题反馈](https://github.com/Roam2026/freeplay-mod-hub-releases/issues)
 
 ## English
+
+0.6.0 adds Onimusha module1.0.0: five manual combat windows, damage/defence/stamina damage, positive Oni Power/Awakening gains, and Oni Vision range/duration. Twelve independent1–10x controls, initially OFF. Requires Steam Build24769601 / EXE1.0.1.0. The complete module includes pinned REFramework and its control plugin; exit the game before installing. All twelve locations are verified at the title menu; actual effects await player testing. Existing game archives are unchanged.
 
 Nioh module 1.3.0 adds an independent Burst Break window (1–10x, default3x; counter collision 12 to 36 frames). Manual R input remains required. Changes/disable affect the next R; existing collisions expire naturally. Update beside Favorite, disable this game’s features and exit normally, then Finish update and restart for testing. The left action updates only the framework. Gameplay trial remains pending.
 
