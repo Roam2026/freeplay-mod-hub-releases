@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.5.6 社区预览，约11MB。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.5.7 社区预览，约11MB。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.5.6 community preview, about 11MB. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.5.7 community preview, about 11MB. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.5.6) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.5.7) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -24,7 +24,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 ## 中文
 
-仁王模块1.2.0新增独立“完美残心窗口”，1–10倍、默认3倍；仍需手动残心，保留原版条件。游戏横幅收藏旁更新模块，停用功能并正常退出游戏后点“完成更新”，再重启试用。左侧只更新框架。
+仁王模块1.3.0新增独立“红光反击窗口”，1–10倍、默认3倍（专用判定对象12→36帧）；仍需手动R。倍率和停用影响下次R，当前对象自然到期。游戏横幅收藏旁更新模块，停用功能并正常退出游戏后点“完成更新”，再重启试用。左侧只更新框架。实战效果待玩家确认。
 
 常用功能在前台，维护进“更多”：收藏/收藏筛选、功能、连接、启动与一键更新直接可用；版本、依赖、诊断及回退保留在更多。
 
@@ -56,7 +56,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 ## English
 
-Nioh module 1.2.0 adds an independent Perfect Ki Pulse window (1–10x, default3x), retaining manual input and native eligibility. Update beside Favorite, disable this game's features and exit the game normally, then Finish update and restart for testing. The left action updates only the framework.
+Nioh module 1.3.0 adds an independent Burst Break window (1–10x, default3x; counter collision 12 to 36 frames). Manual R input remains required. Changes/disable affect the next R; existing collisions expire naturally. Update beside Favorite, disable this game’s features and exit normally, then Finish update and restart for testing. The left action updates only the framework. Gameplay trial remains pending.
 
 Common actions stay up front: favorites/filtering, features, connection, launch and one-click updates. More holds versions, dependencies, diagnostics and rollback.
 
@@ -64,7 +64,7 @@ Existing timing controls and three direct-hit controls are retained; direct-hit 
 
 Download the ZIP above, extract the complete folder, and run the root **GameModHub.exe**. Install the included cached game module from module management, select the game, then enable its features. No Python, Codex or GitHub sign-in is required. The application interface currently uses Chinese; **README.en.txt** is included.
 
-The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, and Phantom Blade Zero builds 26266538 / 26367565. Grand Gourmet provides six independent gain controls (the three advanced gains require build26406937), Nioh module 1.2.0 provides precision-guard/dodge and perfect-pulse windows plus outgoing hit damage, incoming hit-damage reduction and outgoing Ki damage, and PBZ uses the verified 3x perfect-deflect profile.
+The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, and Phantom Blade Zero builds 26266538 / 26367565. Grand Gourmet provides six independent gain controls (the three advanced gains require build26406937), Nioh module 1.3.0 provides precision-guard/dodge, perfect-pulse and Burst Break windows plus outgoing hit damage, incoming hit-damage reduction and outgoing Ki damage, and PBZ uses the verified 3x perfect-deflect profile.
 
 Framework and modules update independently. Closing the framework leaves independent trainers running; disable them through the game card, Disable all, or the tray menu. Settings, caches and recovery files default to the extracted folder and are retained. First migration from 0.3.x requires closing games; subsequent modular framework updates do not.
 
