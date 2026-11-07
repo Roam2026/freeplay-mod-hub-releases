@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.1 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.2 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.1 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.2 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.1) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.2) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -23,6 +23,10 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 <!-- dotnet-runtime-help:end -->
 
 ## 中文
+
+本机玩家复测确认：手动减速、视角 / 人物控制和再次H恢复正常；最高难度自动减速及恢复正常。覆盖当前测试的敌人招式，完整招式和其他电脑仍未穷尽验证。
+
+0.6.2 / 鬼武者1.1.1修复子弹时间：改用应用全局速度，采用匹配的浮点调用约定，并核验实际读回值。上一版场景时钟路径会引起镜头 / 移动异常且没有正确减速；1.1.0请保持子弹时间关闭。H、速度、持续时间和距离设置保留，实际效果由玩家复测。最高难度已捕获13次提示窗口和3次自动请求，说明检测路径部分有效，仍需验证减速与招式覆盖。
 
 0.6.1 / 鬼武者1.1.0：新增子弹时间，默认H按一次减速、再按恢复；快捷键可编辑，默认25%速度，可调10–100%。自动触发实验选项默认关闭，监听敌人对主角发出的防御 / 闪避提示窗口，持续时间、冷却和距离可调。最高难度是否仍发出这类窗口及实战覆盖待玩家测试。原12项及设置保留。先正常退出游戏更新插件，再重启核验。
 
@@ -60,6 +64,10 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 [Discord 中文反馈](https://discord.com/channels/1567700187412045936/1567701582840201256)（已加入成员使用） · [GitHub 问题反馈](https://github.com/Roam2026/freeplay-mod-hub-releases/issues)
 
 ## English
+
+Player retest on this PC confirmed normal manual slowdown, camera/character controls and restoration, plus automatic slowdown/restoration on the highest difficulty. Enemy-attack and other-PC coverage are not exhaustive.
+
+0.6.2 / Onimusha1.1.1 fixes bullet time by using application-global speed with typed float calls and readback verification. The previous scene-clock path caused camera/movement problems without proper slowdown; keep bullet time disabled in1.1.0. Existing settings are retained. Highest-difficulty guide events were captured, but corrected slowdown and attack coverage still require player testing.
 
 0.6.1 / Onimusha1.1.0 adds bullet time: H toggles slow motion at25% by default; speed and shortcut are editable. An optional experimental defensive attack-guide trigger has editable real-time duration, cooldown and range. Both options start OFF. Highest-difficulty coverage and combat behavior require player testing. The existing twelve controls and settings are retained. Exit the game before installing its new plugin, then restart.
 
