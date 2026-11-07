@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.2 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.4 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.2 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.4 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.2) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.4) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -23,6 +23,8 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 <!-- dotnet-runtime-help:end -->
 
 ## 中文
+
+0.6.4 / 鬼武者1.1.3新增音效反馈：连接 / H减速为上行短音，停用 / H恢复为下行短音，自动减速使用较厚重的刀剑出鞘录音。默认开启，可在“子弹时间 / 快捷键”关闭或试听。独立后台每25毫秒读取触发记录，声音异步播放；切换窗口和自然到期不重复响，关闭界面后仍工作。游戏控制DLL与1.1.1逐字节相同；停用当前模块后即可切换音效版，游戏不用退出。
 
 本机玩家复测确认：手动减速、视角 / 人物控制和再次H恢复正常；最高难度自动减速及恢复正常。覆盖当前测试的敌人招式，完整招式和其他电脑仍未穷尽验证。
 
@@ -64,6 +66,8 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 [Discord 中文反馈](https://discord.com/channels/1567700187412045936/1567701582840201256)（已加入成员使用） · [GitHub 问题反馈](https://github.com/Roam2026/freeplay-mod-hub-releases/issues)
 
 ## English
+
+0.6.4 / Onimusha1.1.3 adds optional sound feedback for connection/disconnection, manual H toggles and automatic slow-motion triggers. Audio defaults ON, with a mute checkbox and Preview button in bullet-time settings. The independent worker observes events every25ms and plays original on/off chimes and an embedded CC0 sword-draw recording asynchronously. Focus changes and natural expiry stay quiet; muted events are never replayed. The game-side plugin is byte-identical to1.1.1, so only disable the module to switch workers; the game can stay running.
 
 Player retest on this PC confirmed normal manual slowdown, camera/character controls and restoration, plus automatic slowdown/restoration on the highest difficulty. Enemy-attack and other-PC coverage are not exhaustive.
 
