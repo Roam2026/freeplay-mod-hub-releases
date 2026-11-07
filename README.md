@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.0 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.1 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.0 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.1 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.0) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.1) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -23,6 +23,8 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 <!-- dotnet-runtime-help:end -->
 
 ## 中文
+
+0.6.1 / 鬼武者1.1.0：新增子弹时间，默认H按一次减速、再按恢复；快捷键可编辑，默认25%速度，可调10–100%。自动触发实验选项默认关闭，监听敌人对主角发出的防御 / 闪避提示窗口，持续时间、冷却和距离可调。最高难度是否仍发出这类窗口及实战覆盖待玩家测试。原12项及设置保留。先正常退出游戏更新插件，再重启核验。
 
 0.6.0新增鬼武者模块1.0.0：五种战斗窗口、伤害 / 防御 / 破防、鬼力 / 变身槽正向积累、鬼眼范围 / 持续时间，共12项独立开关、1–10倍，初次全关。需Steam Build24769601 / EXE1.0.1.0。完整模块包含匹配REFramework与控制插件，游戏关闭后在本游戏插件页安装。标题菜单核验12项全部就绪，实战待玩家测试。原三个游戏模块原包复用。
 
@@ -58,6 +60,8 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 [Discord 中文反馈](https://discord.com/channels/1567700187412045936/1567701582840201256)（已加入成员使用） · [GitHub 问题反馈](https://github.com/Roam2026/freeplay-mod-hub-releases/issues)
 
 ## English
+
+0.6.1 / Onimusha1.1.0 adds bullet time: H toggles slow motion at25% by default; speed and shortcut are editable. An optional experimental defensive attack-guide trigger has editable real-time duration, cooldown and range. Both options start OFF. Highest-difficulty coverage and combat behavior require player testing. The existing twelve controls and settings are retained. Exit the game before installing its new plugin, then restart.
 
 0.6.0 adds Onimusha module1.0.0: five manual combat windows, damage/defence/stamina damage, positive Oni Power/Awakening gains, and Oni Vision range/duration. Twelve independent1–10x controls, initially OFF. Requires Steam Build24769601 / EXE1.0.1.0. The complete module includes pinned REFramework and its control plugin; exit the game before installing. All twelve locations are verified at the title menu; actual effects await player testing. Existing game archives are unchanged.
 
