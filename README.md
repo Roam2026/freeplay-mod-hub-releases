@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.7 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.8 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.7 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.8 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.7) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.8) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -23,6 +23,8 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 <!-- dotnet-runtime-help:end -->
 
 ## 中文
+
+0.6.8 / 鬼武者1.4.0把自动子弹时间的持续时间上限从5000毫秒放宽到10000毫秒（10秒），默认仍为1200毫秒，已有时长和所有参数保留。前台输入、独立后台及游戏插件统一接受100–10000毫秒；保留真实时间到期、结束后冷却和H提前恢复。请先更新框架0.6.8，再在鬼武者横幅完成模块和插件更新；此版协议6，需停用功能并正常退出游戏后替换DLL，再重启。依用户要求，本机当前版暂不切换，由用户稍后一键更新。10秒实战与新插件实际加载待届时确认。
 
 0.6.7 / 鬼武者1.3.1将关闭 / H恢复提示音改为更低的下行双音，便于与开启音区分；音量及约140毫秒时长保留。原15项、子弹时间和自动出鞘录音保留，红魂经验、黄魂回血及识破槽均获本机玩家确认。同步更新框架和模块可使试听与后台一致。已安装1.3.0者停用鬼武者模块后即可切换，游戏可保持运行；更早插件按插件页要求正常退出更新。
 
@@ -64,6 +66,8 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 [Discord 中文反馈](https://discord.com/channels/1567700187412045936/1567701582840201256)（已加入成员使用） · [GitHub 问题反馈](https://github.com/Roam2026/freeplay-mod-hub-releases/issues)
 
 ## English
+
+0.6.8 / Onimusha1.4.0 raises automatic bullet-time duration from a5000ms maximum to10000ms (10 seconds). The1200ms default and existing settings are retained. UI, worker and native validation accept100–10000ms; real-time expiry, post-expiry cooldown and manual H cancellation remain. Update framework0.6.8 first, then complete the Onimusha module/plugin update from its banner. Protocol6 requires disabling this module and exiting the game normally before DLL replacement, followed by restart. At the user request, the live installation is left unchanged for their later one-click update. New-plugin loading and10s gameplay remain pending that upgrade.
 
 0.6.7 / Onimusha1.3.1 lowers the disconnect/manual-restore cue to a deeper descending pair, retaining its level and roughly140ms duration. The15 controls, bullet time and automatic sword-draw recording are retained. Red Soul EXP, Yellow Soul healing and Insight gain have player confirmation on this PC. Update both framework and module to keep Preview consistent. Users on1.3.0 can disable the module and switch workers while the game stays running; earlier plugins follow the normal exit/update requirement.
 
