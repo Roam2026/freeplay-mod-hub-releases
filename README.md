@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.6 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.7 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.6 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.7 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.6) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.7) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -23,6 +23,8 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 <!-- dotnet-runtime-help:end -->
 
 ## 中文
+
+0.6.7 / 鬼武者1.3.1将关闭 / H恢复提示音改为更低的下行双音，便于与开启音区分；音量及约140毫秒时长保留。原15项、子弹时间和自动出鞘录音保留，红魂经验、黄魂回血及识破槽均获本机玩家确认。同步更新框架和模块可使试听与后台一致。已安装1.3.0者停用鬼武者模块后即可切换，游戏可保持运行；更早插件按插件页要求正常退出更新。
 
 0.6.6 / 鬼武者1.3.0新增“红魂经验倍率”和“黄魂回血倍率”，分别放大这两类吸魂结算的正向经验与回血量，独立1–10倍、默认关闭。掉落数量、吸魂连锁、原版条件和经验 / 生命上限沿用游戏逻辑。蓝魂与紫魂仍由既有鬼力 / 变身槽倍率独立控制。保留识破槽，共15项；原设置、子弹时间及真实出鞘音效保留。先更新框架0.6.6，再正常退出游戏更新1.3.0模块和协议5插件，重启后核验加载；新增效果由玩家实测。
 
@@ -63,6 +65,8 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 ## English
 
+0.6.7 / Onimusha1.3.1 lowers the disconnect/manual-restore cue to a deeper descending pair, retaining its level and roughly140ms duration. The15 controls, bullet time and automatic sword-draw recording are retained. Red Soul EXP, Yellow Soul healing and Insight gain have player confirmation on this PC. Update both framework and module to keep Preview consistent. Users on1.3.0 can disable the module and switch workers while the game stays running; earlier plugins follow the normal exit/update requirement.
+
 0.6.6 / Onimusha1.3.0 adds independent Red Soul EXP and Yellow Soul healing multipliers,1–10x and initially OFF. They multiply positive final absorption amounts; original drops, chain counting, eligibility and EXP/health caps remain. Blue/Purple use the existing Oni Power/Awakening gain controls. Insight is retained for15 controls total, with existing settings, bullet time and approved sword-draw audio. Update framework0.6.6 first, exit the game normally, update module/plugin1.3.0 and restart for protocol5. Gameplay testing of the new gains is pending.
 
 Player retest on this PC confirmed normal manual slowdown, camera/character controls and restoration, plus automatic slowdown/restoration on the highest difficulty. Enemy-attack and other-PC coverage are not exhaustive.
@@ -88,6 +92,10 @@ This is a community preview. Grand Gourmet resource gains have maintainer player
 本机玩家已确认红魂经验、黄魂回血和识破槽加成，识破上限及消耗 / 清空正常。其他装备和电脑未穷尽。
 
 The player confirmed Red Soul EXP, Yellow Soul healing and Insight gain/cap/spending on this PC; other setups and PCs are not exhaustively tested.
+
+本机玩家已试听安装后的关闭声并确认“可以了”；红魂、黄魂和识破槽均已获实测确认。
+
+The player approved the installed deeper OFF cue; Red/Yellow Soul and Insight gains are also player-confirmed on this PC.
 
 ## Usagi AutoClicker / 乌沙奇连点器
 
