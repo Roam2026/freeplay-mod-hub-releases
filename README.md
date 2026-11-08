@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.4 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.6 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.4 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.6 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.4) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.6) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -24,13 +24,9 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 ## 中文
 
-0.6.4 / 鬼武者1.1.3新增音效反馈：连接 / H减速为上行短音，停用 / H恢复为下行短音，自动减速使用较厚重的刀剑出鞘录音。默认开启，可在“子弹时间 / 快捷键”关闭或试听。独立后台每25毫秒读取触发记录，声音异步播放；切换窗口和自然到期不重复响，关闭界面后仍工作。游戏控制DLL与1.1.1逐字节相同；停用当前模块后即可切换音效版，游戏不用退出。
+0.6.6 / 鬼武者1.3.0新增“红魂经验倍率”和“黄魂回血倍率”，分别放大这两类吸魂结算的正向经验与回血量，独立1–10倍、默认关闭。掉落数量、吸魂连锁、原版条件和经验 / 生命上限沿用游戏逻辑。蓝魂与紫魂仍由既有鬼力 / 变身槽倍率独立控制。保留识破槽，共15项；原设置、子弹时间及真实出鞘音效保留。先更新框架0.6.6，再正常退出游戏更新1.3.0模块和协议5插件，重启后核验加载；新增效果由玩家实测。
 
 本机玩家复测确认：手动减速、视角 / 人物控制和再次H恢复正常；最高难度自动减速及恢复正常。覆盖当前测试的敌人招式，完整招式和其他电脑仍未穷尽验证。
-
-0.6.2 / 鬼武者1.1.1修复子弹时间：改用应用全局速度，采用匹配的浮点调用约定，并核验实际读回值。上一版场景时钟路径会引起镜头 / 移动异常且没有正确减速；1.1.0请保持子弹时间关闭。H、速度、持续时间和距离设置保留，实际效果由玩家复测。最高难度已捕获13次提示窗口和3次自动请求，说明检测路径部分有效，仍需验证减速与招式覆盖。
-
-0.6.1 / 鬼武者1.1.0：新增子弹时间，默认H按一次减速、再按恢复；快捷键可编辑，默认25%速度，可调10–100%。自动触发实验选项默认关闭，监听敌人对主角发出的防御 / 闪避提示窗口，持续时间、冷却和距离可调。最高难度是否仍发出这类窗口及实战覆盖待玩家测试。原12项及设置保留。先正常退出游戏更新插件，再重启核验。
 
 0.6.0新增鬼武者模块1.0.0：五种战斗窗口、伤害 / 防御 / 破防、鬼力 / 变身槽正向积累、鬼眼范围 / 持续时间，共12项独立开关、1–10倍，初次全关。需Steam Build24769601 / EXE1.0.1.0。完整模块包含匹配REFramework与控制插件，游戏关闭后在本游戏插件页安装。标题菜单核验12项全部就绪，实战待玩家测试。原三个游戏模块原包复用。
 
@@ -49,7 +45,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 | 海洋盛宴 | Steam Build 26268989 / 26406937 | 贝里、海贼代币、桃心分别1–100倍；26406937另有训练点数、食材、道具1–10倍 |
 | 仁王3 | Steam EXE 2.0.2.0 | 精准格挡、精准闪避、完美残心窗口1–10倍；另有攻击、减伤、削精控制 |
 | 影之刃零 | Steam Build 26266538 / 26367565 | 五难度完美格挡窗口固定3倍 |
-| 鬼武者 | Steam Build24769601 / EXE1.0.1.0 | 12项独立战斗、能量与鬼眼控制，1–10倍，初次全关 |
+| 鬼武者 | Steam Build24769601 / EXE1.0.1.0 | 15项独立战斗、能量、鬼眼、识破与红黄魂收益控制；另有H / 自动子弹时间和音效 |
 
 保留高DPI文字和控件布局修复；保留独立框架/模块设置和安全回退升级。0.5.1已撤回，现有用户可从程序内更新。
 
@@ -67,15 +63,9 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 ## English
 
-0.6.4 / Onimusha1.1.3 adds optional sound feedback for connection/disconnection, manual H toggles and automatic slow-motion triggers. Audio defaults ON, with a mute checkbox and Preview button in bullet-time settings. The independent worker observes events every25ms and plays original on/off chimes and an embedded CC0 sword-draw recording asynchronously. Focus changes and natural expiry stay quiet; muted events are never replayed. The game-side plugin is byte-identical to1.1.1, so only disable the module to switch workers; the game can stay running.
+0.6.6 / Onimusha1.3.0 adds independent Red Soul EXP and Yellow Soul healing multipliers,1–10x and initially OFF. They multiply positive final absorption amounts; original drops, chain counting, eligibility and EXP/health caps remain. Blue/Purple use the existing Oni Power/Awakening gain controls. Insight is retained for15 controls total, with existing settings, bullet time and approved sword-draw audio. Update framework0.6.6 first, exit the game normally, update module/plugin1.3.0 and restart for protocol5. Gameplay testing of the new gains is pending.
 
 Player retest on this PC confirmed normal manual slowdown, camera/character controls and restoration, plus automatic slowdown/restoration on the highest difficulty. Enemy-attack and other-PC coverage are not exhaustive.
-
-0.6.2 / Onimusha1.1.1 fixes bullet time by using application-global speed with typed float calls and readback verification. The previous scene-clock path caused camera/movement problems without proper slowdown; keep bullet time disabled in1.1.0. Existing settings are retained. Highest-difficulty guide events were captured, but corrected slowdown and attack coverage still require player testing.
-
-0.6.1 / Onimusha1.1.0 adds bullet time: H toggles slow motion at25% by default; speed and shortcut are editable. An optional experimental defensive attack-guide trigger has editable real-time duration, cooldown and range. Both options start OFF. Highest-difficulty coverage and combat behavior require player testing. The existing twelve controls and settings are retained. Exit the game before installing its new plugin, then restart.
-
-0.6.0 adds Onimusha module1.0.0: five manual combat windows, damage/defence/stamina damage, positive Oni Power/Awakening gains, and Oni Vision range/duration. Twelve independent1–10x controls, initially OFF. Requires Steam Build24769601 / EXE1.0.1.0. The complete module includes pinned REFramework and its control plugin; exit the game before installing. All twelve locations are verified at the title menu; actual effects await player testing. Existing game archives are unchanged.
 
 Nioh module 1.3.0 adds an independent Burst Break window (1–10x, default3x; counter collision 12 to 36 frames). Manual R input remains required. Changes/disable affect the next R; existing collisions expire naturally. Update beside Favorite, disable this game’s features and exit normally, then Finish update and restart for testing. The left action updates only the framework. Gameplay trial remains pending.
 
@@ -85,7 +75,7 @@ Existing timing controls and three direct-hit controls are retained; direct-hit 
 
 Download the ZIP above, extract the complete folder, and run the root **GameModHub.exe**. Install the included cached game module from module management, select the game, then enable its features. No Python, Codex or GitHub sign-in is required. The application interface currently uses Chinese; **README.en.txt** is included.
 
-The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, and Phantom Blade Zero builds 26266538 / 26367565. Grand Gourmet provides six independent gain controls (the three advanced gains require build26406937), Nioh module 1.3.0 provides precision-guard/dodge, perfect-pulse and Burst Break windows plus outgoing hit damage, incoming hit-damage reduction and outgoing Ki damage, and PBZ uses the verified 3x perfect-deflect profile.
+The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, Phantom Blade Zero builds 26266538 / 26367565, and Onimusha: Way of the Sword Build24769601 / EXE1.0.1.0 (15 controls plus bullet time). Grand Gourmet provides six independent gain controls (the three advanced gains require build26406937), Nioh module 1.3.0 provides precision-guard/dodge, perfect-pulse and Burst Break windows plus outgoing hit damage, incoming hit-damage reduction and outgoing Ki damage, and PBZ uses the verified 3x perfect-deflect profile.
 
 Framework and modules update independently. Closing the framework leaves independent trainers running; disable them through the game card, Disable all, or the tray menu. Settings, caches and recovery files default to the extracted folder and are retained. First migration from 0.3.x requires closing games; subsequent modular framework updates do not.
 
