@@ -85,9 +85,9 @@ This is a community preview. Grand Gourmet resource gains have maintainer player
 
 [Discord bug reports](https://discord.com/channels/1567700187412045936/1567709362745512076) (existing members) · [GitHub issues](https://github.com/Roam2026/freeplay-mod-hub-releases/issues)
 
-本机玩家已确认红魂经验与识破槽加成，识破上限及消耗 / 清空正常；黄魂回血待单独启用验证。其他装备和电脑未穷尽。
+本机玩家已确认红魂经验、黄魂回血和识破槽加成，识破上限及消耗 / 清空正常。其他装备和电脑未穷尽。
 
-The player confirmed Red Soul EXP and Insight gain/cap/spending on this PC. A separate enabled Yellow Soul trial is pending; other setups and PCs are not exhaustively tested.
+The player confirmed Red Soul EXP, Yellow Soul healing and Insight gain/cap/spending on this PC; other setups and PCs are not exhaustively tested.
 
 ## Usagi AutoClicker / 乌沙奇连点器
 
