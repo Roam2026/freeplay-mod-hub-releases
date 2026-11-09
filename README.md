@@ -8,15 +8,15 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.11 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.12 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.11 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.12 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.11) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.12) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
-0.6.11 / 仁王1.6.0新增“琢技积累倍率”：正常积累独立1–10倍、默认3倍，保留上限、消耗、清空与直接满槽。修复H有音效但战斗速度不变：现在同时调整敌我共用的战斗时间步长和全局计时，原速度/快捷键/提示音设置保留。先更新框架，再停用仁王功能并正常退出游戏，从横幅完成模块与协议7插件更新后重启。新插件实战待玩家试用，其他三款模块原包不变。
+0.6.12 / 仁王1.6.1修复慢速下敌人只走路、不攻击：AI小数帧累计后按整帧推进，避免等待计时被截成0。原H开关、倍率、声音及12项功能设置保留。更新框架后，停用仁王功能并正常退出游戏，再从仁王横幅完成模块/插件更新并重启。修正版原生回归通过，敌人攻击实战仍待玩家更新后确认；其他三个模块原包不变。
 
-0.6.11 / Nioh1.6.0 adds Arts Gauge gain: independent1-10x,3x default, for normal positive gains; native caps, consumption, resets and direct fill calls remain. Fixes H playing a sound without changing combat speed: both the shared world-update step and global timing now scale together. Existing speed, key and sound settings are retained. Update the framework, disable Nioh, exit normally, Finish update on its banner for the protocol7 plugin, then restart. New gameplay remains for player trial; the other three module archives are unchanged.
+0.6.12 / Nioh1.6.1 fixes enemy AI countdowns freezing in slow motion. Fractional AI frames now accumulate per brain before whole-frame updates. H, speed/key/sound settings and all12 features are retained. Update the framework, disable Nioh, exit normally, Finish update on its banner, then restart. Native regression checks passed; corrected enemy attacks still need player confirmation. The other three module archives are unchanged.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
