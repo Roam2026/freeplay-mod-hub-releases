@@ -8,15 +8,15 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.10 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.11 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.10 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.11 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.10) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.11) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
-0.6.10 / 仁王1.5.0新增整体速度：默认25%，连接后按H切换，再按恢复；可设10%–300%，100%为原速。角色、敌人与战斗计时共用全局模拟倍率；暂停、切出游戏、停用或连接失效时停止变速。仅手动开关，原11项功能与设置保留。先更新框架0.6.10，再停用仁王功能、正常退出游戏，从仁王横幅完成模块和协议6插件更新后重启。新增实战效果待玩家试用；其他三款模块原包不变。
+0.6.11 / 仁王1.6.0新增“琢技积累倍率”：正常积累独立1–10倍、默认3倍，保留上限、消耗、清空与直接满槽。修复H有音效但战斗速度不变：现在同时调整敌我共用的战斗时间步长和全局计时，原速度/快捷键/提示音设置保留。先更新框架，再停用仁王功能并正常退出游戏，从横幅完成模块与协议7插件更新后重启。新插件实战待玩家试用，其他三款模块原包不变。
 
-0.6.10 / Nioh1.5.0 adds overall simulation speed: 25% by default, H toggles after connection, H again restores native speed. Choose10-300%;100% is native. Players, enemies and combat timers share the global simulation scale. Pause, focus loss, disable or expired connection stops the override. Manual control only; the eleven existing controls and saved settings remain. Update the framework to0.6.10 first, then disable Nioh, exit the game normally, Finish update on its banner for the protocol6 plugin, and restart. New live gameplay remains for player trial. The other three module archives are unchanged.
+0.6.11 / Nioh1.6.0 adds Arts Gauge gain: independent1-10x,3x default, for normal positive gains; native caps, consumption, resets and direct fill calls remain. Fixes H playing a sound without changing combat speed: both the shared world-update step and global timing now scale together. Existing speed, key and sound settings are retained. Update the framework, disable Nioh, exit normally, Finish update on its banner for the protocol7 plugin, then restart. New gameplay remains for player trial; the other three module archives are unchanged.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
