@@ -8,15 +8,15 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.12 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.13 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.12 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.13 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.12) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.13) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
-0.6.12 / 仁王1.6.1修复慢速下敌人只走路、不攻击：AI小数帧累计后按整帧推进，避免等待计时被截成0。原H开关、倍率、声音及12项功能设置保留。更新框架后，停用仁王功能并正常退出游戏，再从仁王横幅完成模块/插件更新并重启。修正版原生回归通过，敌人攻击实战仍待玩家更新后确认；其他三个模块原包不变。
+0.6.13 / 仁王1.7.0新增两个独立开关：助人体力锁定、助人协助额度锁定，默认均关闭，只作用于蓝色义刃冢的电脑助人。体力开关阻止原生HP伤害；额度开关停止新增协助消耗，保留当前剩余量。手动遣返、死亡后重召及关卡切换保留。包含1.6.1的慢速AI计时修复，H及原12项设置保留。先更新框架，停用仁王功能并正常退出游戏，再从仁王横幅完成模块和协议8插件更新后重启。代码及界面检查通过，两项新效果仍待玩家更新后实测。
 
-0.6.12 / Nioh1.6.1 fixes enemy AI countdowns freezing in slow motion. Fractional AI frames now accumulate per brain before whole-frame updates. H, speed/key/sound settings and all12 features are retained. Update the framework, disable Nioh, exit normally, Finish update on its banner, then restart. Native regression checks passed; corrected enemy attacks still need player confirmation. The other three module archives are unchanged.
+0.6.13 / Nioh1.7.0 adds two independent, initially OFF controls for Benevolent Grave AI: Health Lock and Cooperation Quota Lock. Health Lock prevents native HP damage; Quota Lock stops added cooperation consumption and retains the current remainder. Dismissal, resummoning after death and area transitions remain native. Includes the1.6.1 slow-motion AI fix; H and all12 earlier options are retained. Update the framework, disable Nioh, exit normally, Finish update on its banner for the protocol8 plugin, then restart. Native/UI checks passed; both new effects still need player verification.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
