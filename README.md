@@ -8,15 +8,15 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.13 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.14 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.13 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.14 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.13) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.14) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
-0.6.13 / 仁王1.7.0新增两个独立开关：助人体力锁定、助人协助额度锁定，默认均关闭，只作用于蓝色义刃冢的电脑助人。体力开关阻止原生HP伤害；额度开关停止新增协助消耗，保留当前剩余量。手动遣返、死亡后重召及关卡切换保留。包含1.6.1的慢速AI计时修复，H及原12项设置保留。先更新框架，停用仁王功能并正常退出游戏，再从仁王横幅完成模块和协议8插件更新后重启。代码及界面检查通过，两项新效果仍待玩家更新后实测。
+0.6.14 / 仁王1.8.0新增普通掉落概率倍率和稀有度提升倍率，独立1–10倍、默认均关闭。前者放大符合原版条件的单条目掉落概率，上限100%；后者取原版品质抽签的高端1/倍率区间，保留幸运、额外高品质抽签、进度解锁与原生降档。点击稀有度记录可查看最近一次普通掉落来源在1–10倍下的白/黄/蓝/紫/绿/上位档理论概率；尚无掉落时显示等待。固定奖励不变。包含既有助人体力/协助额度开关及慢速AI计时修复。先更新框架，停用仁王并正常退出游戏，再从仁王横幅完成模块与协议9插件更新、重启。代码及界面检查通过，新游戏效果仍待玩家确认。
 
-0.6.13 / Nioh1.7.0 adds two independent, initially OFF controls for Benevolent Grave AI: Health Lock and Cooperation Quota Lock. Health Lock prevents native HP damage; Quota Lock stops added cooperation consumption and retains the current remainder. Dismissal, resummoning after death and area transitions remain native. Includes the1.6.1 slow-motion AI fix; H and all12 earlier options are retained. Update the framework, disable Nioh, exit normally, Finish update on its banner for the protocol8 plugin, then restart. Native/UI checks passed; both new effects still need player verification.
+0.6.14 / Nioh1.8.0 adds independent normal drop-chance and rarity multipliers,1-10x,both initially OFF. Chance scales each eligible entry up to100%; rarity limits its native draw to the upper1/multiplier quantile while retaining luck, extra high-tier rolls, progression and native caps. Click its record for the latest normal source and all1-10x white/yellow/blue/purple/green/upper-tier theoretical odds. Until a drop is observed it shows Waiting. Fixed rewards are unchanged. Includes ally HP/cooperation locks and the slow-motion AI fix. Update the framework, disable Nioh, exit normally, Finish update on its banner for the protocol9 plugin, then restart. Native/UI checks passed; gameplay remains for the player.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
