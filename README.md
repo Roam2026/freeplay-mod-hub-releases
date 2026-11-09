@@ -8,15 +8,15 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.9 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.10 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.9 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.10 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.9) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.10) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
-0.6.9 / 仁王1.4.0新增四项独立控制：精力消耗降低、忍术恢复倍率、金币获得倍率、精华获得倍率，均1–10倍、初始关闭。精力输入3表示消耗1/3，覆盖普攻/闪避等排队扣精及普通直接扣精；保留原来的扣除时序和恢复规则。忍术仅放大三槽正常正向恢复；金币仅正向入账，精华限拾取、精华道具和普通奖励，找回及未确认返还路径保持。保留游戏上限，首次启用所得倍率前备份默认存档目录。原有七项及设置保留。退出游戏后从仁王横幅完成模块和协议5插件更新，再重启；新增实战效果待玩家试用。其他三个游戏原包不变，现用安装由用户一键升级。
+0.6.10 / 仁王1.5.0新增整体速度：默认25%，连接后按H切换，再按恢复；可设10%–300%，100%为原速。角色、敌人与战斗计时共用全局模拟倍率；暂停、切出游戏、停用或连接失效时停止变速。仅手动开关，原11项功能与设置保留。先更新框架0.6.10，再停用仁王功能、正常退出游戏，从仁王横幅完成模块和协议6插件更新后重启。新增实战效果待玩家试用；其他三款模块原包不变。
 
-0.6.9 / Nioh1.4.0 adds four independent controls (1-10x, initially OFF): reduced Ki consumption, increased normal Ninjutsu recovery, Money gains and Amrita gains. Ki3 means one-third consumption, retaining native queued timing and recovery. Ninjutsu scales positive recovery in all three slots. Money scales positive credits; Amrita scales pickups, Amrita items and ordinary rewards while recovery/unknown refund paths stay native. Native caps remain. The default save directory is backed up before first enabling gain controls. Existing seven controls/settings remain. Exit the game, Finish update on the Nioh banner for the protocol5 plugin, then restart. Live gameplay remains for player trial. Other three game archives are unchanged; the active installation is left for the user to upgrade.
+0.6.10 / Nioh1.5.0 adds overall simulation speed: 25% by default, H toggles after connection, H again restores native speed. Choose10-300%;100% is native. Players, enemies and combat timers share the global simulation scale. Pause, focus loss, disable or expired connection stops the override. Manual control only; the eleven existing controls and saved settings remain. Update the framework to0.6.10 first, then disable Nioh, exit the game normally, Finish update on its banner for the protocol6 plugin, and restart. New live gameplay remains for player trial. The other three module archives are unchanged.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
