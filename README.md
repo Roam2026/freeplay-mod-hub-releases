@@ -8,11 +8,15 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.8 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.9 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.8 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.9 community preview, including four complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.8) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.9) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+
+0.6.9 / 仁王1.4.0新增四项独立控制：精力消耗降低、忍术恢复倍率、金币获得倍率、精华获得倍率，均1–10倍、初始关闭。精力输入3表示消耗1/3，覆盖普攻/闪避等排队扣精及普通直接扣精；保留原来的扣除时序和恢复规则。忍术仅放大三槽正常正向恢复；金币仅正向入账，精华限拾取、精华道具和普通奖励，找回及未确认返还路径保持。保留游戏上限，首次启用所得倍率前备份默认存档目录。原有七项及设置保留。退出游戏后从仁王横幅完成模块和协议5插件更新，再重启；新增实战效果待玩家试用。其他三个游戏原包不变，现用安装由用户一键升级。
+
+0.6.9 / Nioh1.4.0 adds four independent controls (1-10x, initially OFF): reduced Ki consumption, increased normal Ninjutsu recovery, Money gains and Amrita gains. Ki3 means one-third consumption, retaining native queued timing and recovery. Ninjutsu scales positive recovery in all three slots. Money scales positive credits; Amrita scales pickups, Amrita items and ordinary rewards while recovery/unknown refund paths stay native. Native caps remain. The default save directory is backed up before first enabling gain controls. Existing seven controls/settings remain. Exit the game, Finish update on the Nioh banner for the protocol5 plugin, then restart. Live gameplay remains for player trial. Other three game archives are unchanged; the active installation is left for the user to upgrade.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
@@ -34,7 +38,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 0.6.0新增鬼武者模块1.0.0：五种战斗窗口、伤害 / 防御 / 破防、鬼力 / 变身槽正向积累、鬼眼范围 / 持续时间，共12项独立开关、1–10倍，初次全关。需Steam Build24769601 / EXE1.0.1.0。完整模块包含匹配REFramework与控制插件，游戏关闭后在本游戏插件页安装。标题菜单核验12项全部就绪，实战待玩家测试。原三个游戏模块原包复用。
 
-仁王模块1.3.0新增独立“红光反击窗口”，1–10倍、默认3倍（专用判定对象12→36帧）；仍需手动R。倍率和停用影响下次R，当前对象自然到期。游戏横幅收藏旁更新模块，停用功能并正常退出游戏后点“完成更新”，再重启试用。左侧只更新框架。实战效果待玩家确认。
+仁王模块1.4.0保留独立“红光反击窗口”，1–10倍、默认3倍（专用判定对象12→36帧）；仍需手动R。倍率和停用影响下次R，当前对象自然到期。游戏横幅收藏旁更新模块，停用功能并正常退出游戏后点“完成更新”，再重启试用。左侧只更新框架。实战效果待玩家确认。
 
 常用功能在前台，维护进“更多”：收藏/收藏筛选、功能、连接、启动与一键更新直接可用；版本、依赖、诊断及回退保留在更多。
 
@@ -47,7 +51,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 | 游戏 | 已支持版本 | 当前功能 |
 |---|---|---|
 | 海洋盛宴 | Steam Build 26268989 / 26406937 | 贝里、海贼代币、桃心分别1–100倍；26406937另有训练点数、食材、道具1–10倍 |
-| 仁王3 | Steam EXE 2.0.2.0 | 精准格挡、精准闪避、完美残心窗口1–10倍；另有攻击、减伤、削精控制 |
+| 仁王3 | Steam EXE 2.0.2.0 | 模块1.4.0：原七项；另有精力消耗降低、忍术恢复、金币及精华获得倍率 |
 | 影之刃零 | Steam Build 26266538 / 26367565 | 五难度完美格挡窗口固定3倍 |
 | 鬼武者 | Steam Build24769601 / EXE1.0.1.0 | 15项独立战斗、能量、鬼眼、识破与红黄魂收益控制；另有H / 自动子弹时间和音效 |
 
@@ -75,7 +79,7 @@ If Windows reports missing **.NET Framework 4.8**, open [Microsoft's official do
 
 Player retest on this PC confirmed normal manual slowdown, camera/character controls and restoration, plus automatic slowdown/restoration on the highest difficulty. Enemy-attack and other-PC coverage are not exhaustive.
 
-Nioh module 1.3.0 adds an independent Burst Break window (1–10x, default3x; counter collision 12 to 36 frames). Manual R input remains required. Changes/disable affect the next R; existing collisions expire naturally. Update beside Favorite, disable this game’s features and exit normally, then Finish update and restart for testing. The left action updates only the framework. Gameplay trial remains pending.
+Nioh module1.4.0 retains an independent Burst Break window (1–10x, default3x; counter collision 12 to 36 frames). Manual R input remains required. Changes/disable affect the next R; existing collisions expire naturally. Update beside Favorite, disable this game’s features and exit normally, then Finish update and restart for testing. The left action updates only the framework. Gameplay trial remains pending.
 
 Common actions stay up front: favorites/filtering, features, connection, launch and one-click updates. More holds versions, dependencies, diagnostics and rollback.
 
@@ -83,7 +87,7 @@ Existing timing controls and three direct-hit controls are retained; direct-hit 
 
 Download the ZIP above, extract the complete folder, and run the root **GameModHub.exe**. Install the included cached game module from module management, select the game, then enable its features. No Python, Codex or GitHub sign-in is required. The application interface currently uses Chinese; **README.en.txt** is included.
 
-The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, Phantom Blade Zero builds 26266538 / 26367565, and Onimusha: Way of the Sword Build24769601 / EXE1.0.1.0 (15 controls plus bullet time). Grand Gourmet provides six independent gain controls (the three advanced gains require build26406937), Nioh module 1.3.0 provides precision-guard/dodge, perfect-pulse and Burst Break windows plus outgoing hit damage, incoming hit-damage reduction and outgoing Ki damage, and PBZ uses the verified 3x perfect-deflect profile.
+The package supports ONE PIECE: Grand Gourmet builds 26268989 / 26406937, Nioh 3 EXE 2.0.2.0, Phantom Blade Zero builds 26266538 / 26367565, and Onimusha: Way of the Sword Build24769601 / EXE1.0.1.0 (15 controls plus bullet time). Grand Gourmet provides six independent gain controls (the three advanced gains require build26406937), Nioh module1.4.0 provides precision-guard/dodge, perfect-pulse and Burst Break windows plus outgoing hit damage, incoming hit-damage reduction and outgoing Ki damage, and PBZ uses the verified 3x perfect-deflect profile.
 
 Framework and modules update independently. Closing the framework leaves independent trainers running; disable them through the game card, Disable all, or the tray menu. Settings, caches and recovery files default to the extracted folder and are retained. First migration from 0.3.x requires closing games; subsequent modular framework updates do not.
 
