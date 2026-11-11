@@ -8,15 +8,15 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.20 社区预览，含五款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.21 社区预览，含五款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.20 community preview, including five complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.21 community preview, including five complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.20) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.21) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
-0.6.20 / Wall World Strategy1.1.0新增采矿、生产两个独立入库数量倍率（1–100，初始OFF）。采矿3倍时挖1请求入库3；生产5倍时原2请求入库10，同次不叠乘。保留原版上限、矿量扣除、配方消耗和时间，排除奖励、返还、人力和手动补资源，原七项设置保留。技术验证通过，实际效果待玩家试用。
+0.6.21 / Wall World Strategy 1.2.0 新增独立“唤醒速率倍率”，1–10倍、初始关闭。只加快核心冷冻舱正常唤醒居民的进度；原需60秒、3倍在条件相同时约20秒。保留冷冻胶囊消耗、人员、电力、研究解锁、事件锁定、职业选择及单次人数，不加快普通加工。原九项设置保持，采矿/生产入库数量与本项独立。框架0.6.19可单独更新本模块；活动模块先暂存，游戏已加载旧DLL时正常退出后再连接新版。技术检查通过，实际效果待玩家试用。
 
-0.6.20 / Wall World Strategy 1.1.0 adds separate mining and production stock multipliers, each 1-100x and initially OFF. One mined unit at 3x requests three; two produced units at 5x request ten, without stacking the two multipliers. Native caps, depletion, recipe costs and times remain. Rewards, refunds, units/manpower and manual refill are excluded. Existing seven settings are preserved. Technical checks passed; gameplay effects await player testing.
+0.6.21 / Wall World Strategy 1.2.0 adds an independent Cryocenter Awakening Speed control, 1-10x and initially OFF. Only the core cryocenter's normal citizen-awakening progress is accelerated: a 60-second cycle takes about 20 seconds at 3x under the same conditions. Native capsule costs, staffing, power, research/event locks, profession choice and citizens per cycle remain. Ordinary refining is unchanged. All nine existing settings are retained; mining/production stock gain remains independent. Framework 0.6.19 can update this module on its own. Active modules stage updates; an already loaded old DLL requires a normal game restart. Technical checks passed; gameplay effects await player testing.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
