@@ -8,15 +8,15 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.15 社区预览，含四款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.19 社区预览，含五款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.15 community preview, including four complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.19 community preview, including five complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.15) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.19) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
-0.6.15将所有游戏模块的功能行统一为单行：只保留名称、开关、倍率和最近记录；完整说明移到名称/开关/倍率/记录的悬浮提示，自动换行。现有模块更新框架即可采用，无需逐个游戏重做界面。仁王1.8.1只改说明和数字例子：掉落概率原本20%时，2倍约40%、3倍约60%、5倍达到100%；只出蓝/紫、原本紫约12%的示例，3倍约紫36%/蓝64%。品质各颜色占比合计100%，实际来源的具体例子按其当前概率表生成。游戏控制插件与1.8.0完全相同，已有功能、设置和回退资料保留。
+0.6.19新增Wall World Strategy1.0.0（Build26588068）：两项手动库存/扩仓操作，四项独立建造、科研、采矿、远征行进速度和冻结不满。手动数量为输入×100，需要明确点击执行；只操作普通、非固定上限库存，保留原版容量及前置条件。重连不重放动作，操作前保留存档备份。无需另装加载器，旧四游戏模块包与原设置保留。技术验证通过；实际游戏效果待玩家试用。
 
-0.6.15 standardizes single-line feature rows across all game modules: name,switch,value and latest record only. Full explanations move to wrapped hover help on names,switches,values and records; existing modules receive this through the framework update. Nioh1.8.1 improves wording/examples only: a20% eligible-entry chance becomes about40/60/100% at2/3/5x. A blue/purple-only example with about12% purple becomes about36% purple/64% blue at3x. Color shares total100%; source-specific examples use its computed table. The native game plugin is byte-identical to1.8.0; controls,settings and rollback data are retained.
+0.6.19 adds Wall World Strategy1.0.0 for Build26588068: two explicit stock/capacity actions, four independent construction/research/digging/expedition-travel speeds, and discontent freeze. Quantities are input times100; ordinary non-fixed storage and native caps/prerequisites remain. Manual actions require an Execute click, back up saves first, and never replay on reconnect. No separate loader is required. Existing four module packages and settings are retained. Technical checks passed; gameplay effects await player testing.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
