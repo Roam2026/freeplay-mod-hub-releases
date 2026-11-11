@@ -8,15 +8,15 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.19 社区预览，含五款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.20 社区预览，含五款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.19 community preview, including five complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.20 community preview, including five complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.19) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.20) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
-0.6.19新增Wall World Strategy1.0.0（Build26588068）：两项手动库存/扩仓操作，四项独立建造、科研、采矿、远征行进速度和冻结不满。手动数量为输入×100，需要明确点击执行；只操作普通、非固定上限库存，保留原版容量及前置条件。重连不重放动作，操作前保留存档备份。无需另装加载器，旧四游戏模块包与原设置保留。技术验证通过；实际游戏效果待玩家试用。
+0.6.20 / Wall World Strategy1.1.0新增采矿、生产两个独立入库数量倍率（1–100，初始OFF）。采矿3倍时挖1请求入库3；生产5倍时原2请求入库10，同次不叠乘。保留原版上限、矿量扣除、配方消耗和时间，排除奖励、返还、人力和手动补资源，原七项设置保留。技术验证通过，实际效果待玩家试用。
 
-0.6.19 adds Wall World Strategy1.0.0 for Build26588068: two explicit stock/capacity actions, four independent construction/research/digging/expedition-travel speeds, and discontent freeze. Quantities are input times100; ordinary non-fixed storage and native caps/prerequisites remain. Manual actions require an Execute click, back up saves first, and never replay on reconnect. No separate loader is required. Existing four module packages and settings are retained. Technical checks passed; gameplay effects await player testing.
+0.6.20 / Wall World Strategy 1.1.0 adds separate mining and production stock multipliers, each 1-100x and initially OFF. One mined unit at 3x requests three; two produced units at 5x request ten, without stacking the two multipliers. Native caps, depletion, recipe costs and times remain. Rewards, refunds, units/manpower and manual refill are excluded. Existing seven settings are preserved. Technical checks passed; gameplay effects await player testing.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
