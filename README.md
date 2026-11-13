@@ -8,15 +8,15 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.21 社区预览，含五款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.22 社区预览，含五款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.21 community preview, including five complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.22 community preview, including five complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.21) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.22) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
-0.6.21 / Wall World Strategy 1.2.0 新增独立“唤醒速率倍率”，1–10倍、初始关闭。只加快核心冷冻舱正常唤醒居民的进度；原需60秒、3倍在条件相同时约20秒。保留冷冻胶囊消耗、人员、电力、研究解锁、事件锁定、职业选择及单次人数，不加快普通加工。原九项设置保持，采矿/生产入库数量与本项独立。框架0.6.19可单独更新本模块；活动模块先暂存，游戏已加载旧DLL时正常退出后再连接新版。技术检查通过，实际效果待玩家试用。
+0.6.22 / Wall World Strategy 1.2.1 适配游戏 Build 26642676。重新定位八个控制入口、十九处采矿/生产来源调用和仓储辅助方法，更新代码与元数据指纹；保留原十项功能、独立开关、倍率与设置。修正采矿速度对“基础速度＋加法修正”的处理：默认修正为0时仍可正确请求3倍速度，并在调用后还原原修正；不增加单块矿产量。协议3/216字节保持，其他四游戏模块原包不变。旧游戏版本不匹配时拒绝连接，回退包保留。技术检查通过，实际游戏效果待玩家试用。
 
-0.6.21 / Wall World Strategy 1.2.0 adds an independent Cryocenter Awakening Speed control, 1-10x and initially OFF. Only the core cryocenter's normal citizen-awakening progress is accelerated: a 60-second cycle takes about 20 seconds at 3x under the same conditions. Native capsule costs, staffing, power, research/event locks, profession choice and citizens per cycle remain. Ordinary refining is unchanged. All nine existing settings are retained; mining/production stock gain remains independent. Framework 0.6.19 can update this module on its own. Active modules stage updates; an already loaded old DLL requires a normal game restart. Technical checks passed; gameplay effects await player testing.
+0.6.22 / Wall World Strategy 1.2.1 supports game Build 26642676. Eight native entry points, nineteen mining/production source calls and storage helpers have been relocated and rechecked, with new code and metadata fingerprints. All ten controls, independent switches, multipliers and saved choices are retained. Digging speed now scales the total base-plus-additive-adjustment speed, so the default zero adjustment no longer prevents acceleration; the original adjustment is restored after each call. Per-block quantity remains separate. Protocol3/216 bytes and the four other game module archives are unchanged. Mismatched game builds are refused and previous packages retained. Technical checks passed; gameplay effects await player testing.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
