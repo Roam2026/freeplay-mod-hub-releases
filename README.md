@@ -14,6 +14,14 @@
 
 [版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.22) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
+### 官方来源与文件校验 / Official source and integrity
+
+官方发行仓库为 **Roam2026/freeplay-mod-hub-releases**。转载文件的 SHA-256 请与本官方页面提供的校验值核对；只有文件完全相同，才能视为官方原包。源码和源码备份仅保存在本机与私有开发仓库，公开包提供运行文件、说明及许可。
+
+自 2026-11-14 启用保护后发布的新版本，版本化发行资产和标签由 GitHub 锁定，并提供可验证的发行证明。历史版本不自动获得此保护；请以发行页的 **Immutable** 标记为准。固定下载入口继续随版本更新，历史版本包保留供核对和回退。
+
+The official release repository is **Roam2026/freeplay-mod-hub-releases**. Compare redistributed files with the SHA-256 published here. Source and source backups stay private. New versioned releases published after immutability was enabled on November 14, 2026 receive locked assets/tags and GitHub release attestations; look for the **Immutable** label. Existing releases remain unchanged and the fixed download URL continues to update.
+
 0.6.22 / Wall World Strategy 1.2.1 适配游戏 Build 26642676。重新定位八个控制入口、十九处采矿/生产来源调用和仓储辅助方法，更新代码与元数据指纹；保留原十项功能、独立开关、倍率与设置。修正采矿速度对“基础速度＋加法修正”的处理：默认修正为0时仍可正确请求3倍速度，并在调用后还原原修正；不增加单块矿产量。协议3/216字节保持，其他四游戏模块原包不变。旧游戏版本不匹配时拒绝连接，回退包保留。技术检查通过，实际游戏效果待玩家试用。
 
 0.6.22 / Wall World Strategy 1.2.1 supports game Build 26642676. Eight native entry points, nineteen mining/production source calls and storage helpers have been relocated and rechecked, with new code and metadata fingerprints. All ten controls, independent switches, multipliers and saved choices are retained. Digging speed now scales the total base-plus-additive-adjustment speed, so the default zero adjustment no longer prevents acceleration; the original adjustment is restored after each call. Per-block quantity remains separate. Protocol3/216 bytes and the four other game module archives are unchanged. Mismatched game builds are refused and previous packages retained. Technical checks passed; gameplay effects await player testing.
