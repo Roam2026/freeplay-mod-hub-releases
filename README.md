@@ -8,11 +8,11 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.22 社区预览，含五款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.24 社区预览，含五款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.22 community preview, including five complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.24 community preview, including five complete game modules. This download address stays the same for future approved updates.**
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.22) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.24) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-stable/GameModHub-Windows.zip.sha256)
 
 ### 官方来源与文件校验 / Official source and integrity
 
@@ -22,9 +22,9 @@
 
 The official release repository is **Roam2026/freeplay-mod-hub-releases**. Compare redistributed files with the SHA-256 published here. Source and source backups stay private. New versioned releases published after immutability was enabled on November 14, 2026 receive locked assets/tags and GitHub release attestations; look for the **Immutable** label. Existing releases remain unchanged and the fixed download URL continues to update.
 
-0.6.22 / Wall World Strategy 1.2.1 适配游戏 Build 26642676。重新定位八个控制入口、十九处采矿/生产来源调用和仓储辅助方法，更新代码与元数据指纹；保留原十项功能、独立开关、倍率与设置。修正采矿速度对“基础速度＋加法修正”的处理：默认修正为0时仍可正确请求3倍速度，并在调用后还原原修正；不增加单块矿产量。协议3/216字节保持，其他四游戏模块原包不变。旧游戏版本不匹配时拒绝连接，回退包保留。技术检查通过，实际游戏效果待玩家试用。
+0.6.24 / 仁王3模块1.12.0增加共通、武士、忍者三项独立技能容量倍率，1–10倍，初始关闭。基础容量30在3倍时为90，基础29为87；技能额外提供的容量仍原值相加。保留技能COST和学习条件，启用前自动备份存档。关闭前先把装备消耗降回原上限；关闭后重开管理技能页。先更新框架，再停用仁王并正常退出游戏，从仁王横幅更新模块和匹配插件后重启。技术与只读位置检查通过，超过30的实际装备及存档重载仍待玩家确认。其他四个游戏模块原包不变，设置与上一版保留。
 
-0.6.22 / Wall World Strategy 1.2.1 supports game Build 26642676. Eight native entry points, nineteen mining/production source calls and storage helpers have been relocated and rechecked, with new code and metadata fingerprints. All ten controls, independent switches, multipliers and saved choices are retained. Digging speed now scales the total base-plus-additive-adjustment speed, so the default zero adjustment no longer prevents acceleration; the original adjustment is restored after each call. Per-block quantity remains separate. Protocol3/216 bytes and the four other game module archives are unchanged. Mismatched game builds are refused and previous packages retained. Technical checks passed; gameplay effects await player testing.
+0.6.24 / Nioh3 module1.12.0 adds independent common, Samurai and Ninja skill-capacity multipliers, x1-x10 and initially OFF. A base pool of30 becomes90 at x3, and29 becomes87; skill-provided capacity bonuses remain additive. Native COST and learning conditions remain. Saves are backed up before enabling. Reduce equipped COST to the original limit before disabling, then reopen Manage Skills. Update the framework first; disable Nioh controls and exit the game normally before updating its module/plugin from the Nioh banner and restarting. Native, IPC and read-only site checks passed; actual over30 equipping and save/reload await player testing. The four other game archives, settings and rollback versions are preserved.
 
 <!-- dotnet-runtime-help:start -->
 ## 启动提示 / Startup help
