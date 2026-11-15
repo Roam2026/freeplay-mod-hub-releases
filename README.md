@@ -14,6 +14,9 @@
 
 **Current package: MOD HUB 0.6.25 community preview, including six complete game modules. This download address stays the same for future approved updates.**
 
+旧 `modhub-stable` 下载别名已锁定并保留旧版；当前固定ZIP使用上方新入口，程序内升级继续有效。
+The old immutable alias retains its archived version; use the fixed download above for current packages. In-app updates continue normally.
+
 [版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.25) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-download/GameModHub-Windows.zip.sha256)
 
 ### 官方来源与文件校验 / Official source and integrity
