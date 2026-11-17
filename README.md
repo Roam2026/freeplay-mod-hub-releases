@@ -1,6 +1,6 @@
 # 自在游社 · Freeplay Club — MOD HUB
 
-0.6.28 / Here Comes the Horde1.0.1修复出兵倍率导致连续出兵的问题。修正倒计时调用上下文后，例原10秒一波在2倍下约5秒、5倍下约2秒；原版部队数量与出兵条件保留。其他五项控制、设置和存档保留，其他六个游戏模块原包复用。65项原生检查包含旧问题复现、真实调用链、倍率切换、停用和失联回归；游戏内效果待玩家复测。
+0.6.29按选定设计更新桌面界面：紧凑缩略图游戏库、统一功能表、独立开关、可直接输入的加减倍率控件，以及固定的连接/启动/停用操作栏。Water TD将点数收益与防守建造分组；长列表仍可滚动，手动操作和快捷键设置保留。七个游戏模块原包、游戏兼容范围、设置及回退版本保留，重新打开不会自动连接。
 
 按自己的节奏，玩喜欢的游戏。**Play your way.**
 
@@ -10,14 +10,14 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-download/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.28 社区预览，含七款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.29 社区预览，含七款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.28 community preview, including seven complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.29 community preview, including seven complete game modules. This download address stays the same for future approved updates.**
 
 旧 `modhub-stable` 下载别名已锁定并保留旧版；当前固定ZIP使用上方新入口，程序内升级继续有效。
 The old immutable alias retains its archived version; use the fixed download above for current packages. In-app updates continue normally.
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.28) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-download/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.29) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-download/GameModHub-Windows.zip.sha256)
 
 ### 官方来源与文件校验 / Official source and integrity
 
