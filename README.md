@@ -1,6 +1,6 @@
 # 自在游社 · Freeplay Club — MOD HUB
 
-0.6.25 / Water TD模块1.0.0新增七项独立控制：普通点、通关点、完美点收益，基地生命，主动技能回充，炮塔数量上限及加固次数。初始关闭，点数/生命/加固1–100倍，回充/炮塔1–10倍。保留首次达成、解锁、充能与摆放条件；基地按当前生命百分比缩放，加固不重置已用次数。炮塔每类安全上限为普通10、激光/电塔13、黑洞4。首次开启点数前自动备份，所得可保存。使用匹配的Steam1.0.1 / Build26678206，不改游戏文件。隔离Mono真实代码与平台检查通过；实际游戏加载和效果待玩家试用。原五个游戏模块原包保留。
+0.6.26 / Water TD1.1.0适配Steam1.0.2、Build26689920，并提高所有塔种的数量上限。炮塔上限倍率扩至1–100；自动炮塔、喷火塔、风扇、迫击炮及电塔每类最多30，激光15、黑洞8。伤害炮塔共用60座额度，激光/电塔/黑洞再按游戏容量动态限制并为主动技能保留位置；最近记录标明查询塔种和实际额度。保留解锁、已放塔及全部旧设置，不自动拆塔，关闭后仍保护扩建布局容量。其余六项功能不变，其他五个游戏模块原包复用。技术检查通过，实际游戏效果与大量塔时的性能待玩家试用。
 
 按自己的节奏，玩喜欢的游戏。**Play your way.**
 
@@ -10,14 +10,14 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-download/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.25 社区预览，含六款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.26 社区预览，含六款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.25 community preview, including six complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.26 community preview, including six complete game modules. This download address stays the same for future approved updates.**
 
 旧 `modhub-stable` 下载别名已锁定并保留旧版；当前固定ZIP使用上方新入口，程序内升级继续有效。
 The old immutable alias retains its archived version; use the fixed download above for current packages. In-app updates continue normally.
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.25) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-download/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.26) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-download/GameModHub-Windows.zip.sha256)
 
 ### 官方来源与文件校验 / Official source and integrity
 
