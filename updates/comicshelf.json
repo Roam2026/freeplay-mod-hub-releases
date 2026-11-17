@@ -1,0 +1,9 @@
+{
+  "Schema": 1,
+  "Product": "ComicShelf",
+  "Version": "0.3.19",
+  "PackageUrl": "https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/comicshelf-v0.3.19/ComicShelf-v0.3.19-Windows-x64-Portable.zip",
+  "Sha256": "9D3276C67692CC5BE68E0DF75FABFDD10CEFF13CE7B5D4C1264A52844DF965F4",
+  "Size": 5211390,
+  "Notes": "采用选定的深绿翻页书图标，适配窗口、任务栏和快捷方式。更新清单迁到同仓库的独立 HTTPS 地址；自动兼容旧官方配置，保留自定义通道和全部漫画资料。旧通道已被 GitHub 锁定，本次请导入本地更新包，之后继续在线升级。"
+}
