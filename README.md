@@ -1,6 +1,6 @@
 # 自在游社 · Freeplay Club — MOD HUB
 
-0.6.26 / Water TD1.1.0适配Steam1.0.2、Build26689920，并提高所有塔种的数量上限。炮塔上限倍率扩至1–100；自动炮塔、喷火塔、风扇、迫击炮及电塔每类最多30，激光15、黑洞8。伤害炮塔共用60座额度，激光/电塔/黑洞再按游戏容量动态限制并为主动技能保留位置；最近记录标明查询塔种和实际额度。保留解锁、已放塔及全部旧设置，不自动拆塔，关闭后仍保护扩建布局容量。其余六项功能不变，其他五个游戏模块原包复用。技术检查通过，实际游戏效果与大量塔时的性能待玩家试用。
+0.6.27 / Here Comes the Horde1.0.0新增六项独立实时控制：金币、灵魂获取各1–100倍；出兵速率、技能冷却、建造各1–10倍；城墙免伤。支持Steam1.0.2、Build26711943，首次全部关闭，无需安装游戏目录加载器。保留消费、解锁、技能持续时间和敌军速度；收益首次开启前自动备份。关闭后恢复后续原版计算，已获得资源及完成进度保留。其他六个游戏模块原包复用。技术检查通过，游戏内效果待玩家试用。
 
 按自己的节奏，玩喜欢的游戏。**Play your way.**
 
@@ -10,14 +10,14 @@
 
 ### [Download the portable Windows ZIP](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-download/GameModHub-Windows.zip)
 
-**当前文件：MOD HUB 0.6.26 社区预览，含六款游戏完整模块。固定地址，后续更新沿用同一链接。**
+**当前文件：MOD HUB 0.6.27 社区预览，含七款游戏完整模块。固定地址，后续更新沿用同一链接。**
 
-**Current package: MOD HUB 0.6.26 community preview, including six complete game modules. This download address stays the same for future approved updates.**
+**Current package: MOD HUB 0.6.27 community preview, including seven complete game modules. This download address stays the same for future approved updates.**
 
 旧 `modhub-stable` 下载别名已锁定并保留旧版；当前固定ZIP使用上方新入口，程序内升级继续有效。
 The old immutable alias retains its archived version; use the fixed download above for current packages. In-app updates continue normally.
 
-[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.26) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-download/GameModHub-Windows.zip.sha256)
+[版本记录 / Release notes](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/tag/v0.6.27) · [SHA-256](https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/modhub-download/GameModHub-Windows.zip.sha256)
 
 ### 官方来源与文件校验 / Official source and integrity
 
