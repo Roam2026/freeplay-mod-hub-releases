@@ -1,9 +1,9 @@
 {
   "Schema": 1,
   "Product": "ComicShelf",
-  "Version": "0.3.19",
-  "PackageUrl": "https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/comicshelf-v0.3.19/ComicShelf-v0.3.19-Windows-x64-Portable.zip",
-  "Sha256": "9D3276C67692CC5BE68E0DF75FABFDD10CEFF13CE7B5D4C1264A52844DF965F4",
-  "Size": 5211390,
-  "Notes": "采用选定的深绿翻页书图标，适配窗口、任务栏和快捷方式。更新清单迁到同仓库的独立 HTTPS 地址；自动兼容旧官方配置，保留自定义通道和全部漫画资料。旧通道已被 GitHub 锁定，本次请导入本地更新包，之后继续在线升级。"
+  "Version": "0.3.20",
+  "PackageUrl": "https://github.com/Roam2026/freeplay-mod-hub-releases/releases/download/comicshelf-v0.3.20/ComicShelf-v0.3.20-Windows-x64-Portable.zip",
+  "Sha256": "2622B7FB45A5BA3350C7BC7512B659463AE8AEFC8FFD2EC0D4E85A86F8E03246",
+  "Size": 5222450,
+  "Notes": "设置中新增“清空所有备份”：确认后清理已登记的漫画恢复副本和程序回退备份，显示数量、容量及实际进度；未完成、异常或无法访问的备份保留并报告原因。当前漫画、索引、封面、阅读记录和设置保留。"
 }
